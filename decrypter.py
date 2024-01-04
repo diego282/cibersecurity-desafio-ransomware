@@ -8,7 +8,7 @@ file_data = file.read()
 file.close()
 
 ## chave para descriptografia
-key = b"testeransomwares"
+key = b"!&$te4@n$0mwares"
 aes = pyaes.AESModeOfOperationCTR(key)
 decrypt_data = aes.decrypt(file_data)
 
